@@ -182,7 +182,7 @@ const Stake: NextPage = () => {
                 <h3>{nft.metadata.name}</h3>
                 <button
                   className={`${styles.mainButton} ${styles.spacerBottom}`}
-                  onClick={() => stakeNft(nft.metadata.id)}
+                  onClick={() => stakeNft(BigInt(nft.metadata.id))}
                 >
                   Stake
                 </button>
