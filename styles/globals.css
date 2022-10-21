@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height:100%;width:100%;
+  font-size:100%;line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+a{color:inherit;}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  padding-bottom: 250px;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  --black: #1c1e21;
+  --white: #ffffff;
+  --tw-color1: #a855f7;
+  --tw-color1-hover: #9333ea;
+}
+
+body {
+  background: #0D0D0E;
+  font-family: 'Paytone One', sans-serif;
+
+  color: var(--white);
+  
+  
+  
+}
+
+h2 {
+  font-size: 2rem;
+}
+.containerAru{
+	margin-left: 120px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.h1Aru{
+  font-family: 'Paytone One', sans-serif;
+	font-size: 75px;
+	font-weight: 400;
+	line-height: 100px;
+	margin-top: 0px;
+}
+.forButtons{
+	background-color: #0D0D0E;
+	
+	display: flex;
+	width: 750px;
+	
+}
+
+.mint_bTn{
+	max-width: 310px;
+	text-align: center;
+}
+.stake_btn{
+	margin-left: 60px;
+	max-width: 310px;
+	text-align: center;
+}
+.btn{
+	margin-top: 19px;
+	padding: 10px 40px;
+	border-radius: 9999px;
+	color: white;
+	background-color: #0D0D0E;
+	border: 2px solid white;
+	transition: 0.3s all;
+}
+
+.btn:hover{
+	transform: scale(1.1);
+	color: #0D0D0E;
+	background-color: white;
+}
+.para{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 1px;
+}
+.image{
+	margin: 40px 0;
+	width: 220px;
+	height: 220px;
+	border-radius: 10%;
+}
+.back{
+	margin-left: -200px;
+
+	
+}
+.rightSide{
+	position: relative;
+	top:0;
+	right: 0;
+}
+.leftSide{
+	z-index: 1000;
+}
+.h3Aru{
+	font-size: 25px;
+}
+.Aru{
+	position: absolute;
+	display: inline;
+	text-align: right;
+  font-family: 'Paytone One', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	bottom: 0;
+	right: 150px;
+	background-color: #D400B3;
+	padding: 10px 40px;
+	border-radius: 10px;
+}
+.mainpart{
+	background-color:#0D0D0E;
+}
+.TipaSlider667{
+	width: 100%;
+	background-color: #262627;
+	border-radius: 20px;
+	padding: 100px 0;
+
+}
+.slide1{
+	margin-left: 48px;
+}
+.slide2{
+	margin-left: 90px;
+}
+.slide3{
+	margin-left: 100px;
+}
+.h1Arr{
+	text-align: center;
+
+	font-family: 'Paytone One', sans-serif;
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 100px;
+	margin-top: 0px;
+}
+.mt{
+	color:rgba(240, 248, 255, 0.6);
+	margin-top: 10px;
+	text-align: center;
+}
+.bb{
+	margin-top: -5px;
+	text-align: center;
+}
+.btns{
+	margin: 15px 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
